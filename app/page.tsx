@@ -1,5 +1,6 @@
 "use client";
 
+import ContactForm from "./components/ContactForm";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -198,16 +199,17 @@ export default function Home() {
         </section>
 
         <section id="contacto" className="rounded-[2rem] border border-slate-200 bg-white/95 p-10 shadow-[0_24px_80px_-40px_rgba(15,23,42,0.12)]">
-          <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+            <div className="flex flex-col gap-6">
             <div>
               <h2 className="text-2xl font-semibold text-slate-950">Hablemos de tu próximo proyecto</h2>
               <p className="mt-3 max-w-2xl text-base leading-7 text-slate-600">
                 Si necesitas una desarrolladora junior que aporte ganas, claridad y buena comunicación, estaré encantada de colaborar.
               </p>
+              <p className="mt-4 text-sm text-slate-600">
+                Escríbeme a <span className="font-semibold">lulutyinlove@gmail.com</span> o llama al <span className="font-semibold">+54 11 6377 3397</span>.
+              </p>
             </div>
-            <a href="mailto:lulutyinlove@gmail.com" className="inline-flex items-center justify-center rounded-full bg-fuchsia-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-fuchsia-400">
-              Contáctame
-            </a>
+            <ContactForm />
           </div>
         </section>
       </div>
@@ -216,7 +218,7 @@ export default function Home() {
           <p>Portfolio de Lucía Fernández · Junior Frontend Developer</p>
           <div className="flex flex-wrap gap-4">
             <a href="https://github.com/LMFernandez04" target="_blank" rel="noopener noreferrer" className="transition hover:text-slate-900">GitHub</a>
-            <a href="https://www.linkedin.com/in/luc%C3%ADa-fern%C3%A1ndez-4a7036243" target="_blank" rel="noopener noreferrer" className="transition hover:text-slate-900">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/lucia-fernandez-4a7036243" target="_blank" rel="noopener noreferrer" className="transition hover:text-slate-900">LinkedIn</a>
             <a href="mailto:lulutyinlove@gmail.com" className="transition hover:text-slate-900">Email</a>
           </div>
         </div>
