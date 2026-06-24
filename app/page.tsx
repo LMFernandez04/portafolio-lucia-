@@ -218,7 +218,7 @@ export default function Home() {
           <p>Portfolio de Lucía Fernández · Junior Frontend Developer</p>
           <div className="flex flex-wrap gap-4">
             <a href="https://github.com/LMFernandez04" target="_blank" rel="noopener noreferrer" className="transition hover:text-slate-900">GitHub</a>
-            <a href="https://www.linkedin.com/in/lucia-fernandez-4a7036243" target="_blank" rel="noopener noreferrer" className="transition hover:text-slate-900">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/lucía-fernández-753159e" target="_blank" rel="noopener noreferrer" className="transition hover:text-slate-900">LinkedIn</a>
             <a href="mailto:lulutyinlove@gmail.com" className="transition hover:text-slate-900">Email</a>
           </div>
         </div>
